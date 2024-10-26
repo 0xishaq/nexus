@@ -1,5 +1,3 @@
-#!/bin/bash
-
 curl -s https://raw.githubusercontent.com/0xishaq/logo/main/logo.sh | bash
 sleep 5
 
