@@ -11,11 +11,11 @@
 ## Installation
 - Kalian bisa pakai CMD berikut :
 ```bash
-curl -sSL https://raw.githubusercontent.com/0xishaq/nexus-prover/main/nexus.sh | bash
+curl -sSL https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
 ```
 - maupun command berikut untuk menjalankan script :
 ```bash
-wget -qO - https://raw.githubusercontent.com/0xishaq/nexus-prover/main/nexus.sh | bash
+wget -qO - https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
 ```
 
 ## Status
