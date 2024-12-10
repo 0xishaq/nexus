@@ -19,7 +19,7 @@ wget -qO - https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
 ```
 
 ## Status
-- Untuk mencek Prover statur kalian bisa pakai :
+- Untuk mencek Prover status kalian bisa pakai :
 ```bash
 systemctl status nexus.service
 ```
