@@ -19,6 +19,7 @@ wget -qO - https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
 ```
 
 ## Status
+Buat dulu screen sebelum check status `screen -S nexus`
 - Untuk mencek Prover status kalian bisa pakai :
 ```bash
 systemctl status nexus.service
@@ -49,9 +50,18 @@ Kalian harus connect email dengan prover id kalian yang ada di web supaya data c
 ## Cara run 1 prover-d di berbagai vps
 Jika kalian ingin gunakan 1 prover-id di web dengan yang di vps supaya sama dengan yang di website caranya :
 - Masuk ke https://beta.nexus.xyz/
-- Kemudian inspect element 'ctrl'+'shift'+'i' kalau di chrome
+- Kemudian inspect element `ctrl`+`shift`+`i` kalau di chrome
 - Masuk ke tab Application
 - Selanjutnya masuk ke 'local storage' cari https://beta.nexus.xyz/
-- kemudian kopi prover-id kalian simpan didalam note untuk jaga-jaga
-- Selanjutnya ubah prover-id yang ada di vps
-- 
+- kemudian copy prover-id kalian simpan didalam note untuk jaga-jaga
+![Screenshot 2024-12-11 194601](https://github.com/user-attachments/assets/afe91f5a-59ce-4b61-b280-7c33a64dbf47)
+- Selanjutnya ubah prover-id yang ada di vps dengan prover-id yang barusan di copy
+```bash
+cd .nexus
+nano prover-id
+```
+jika sudah save `ctrl`+`x`+`y`+`enter` kemudian Restart nexus.service
+```bash
+sudo systemctl restart nexus.service
+```
+
