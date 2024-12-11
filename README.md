@@ -13,9 +13,13 @@
 ```bash
 curl -sSL https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
 ```
-- maupun command berikut untuk menjalankan script :
+- Atau pake command berikut untuk menjalankan script :
 ```bash
 wget -qO - https://raw.githubusercontent.com/0xishaq/nexus/main/nexus.sh | bash
+```
+- Jika error kalian coba jalankan script berikut:
+```bash
+curl https://cli.nexus.xyz/ | sh
 ```
 
 ## Status
@@ -65,5 +69,6 @@ nano prover-id
 sudo systemctl restart nexus.service
 ```
 - Check point kalian di website https://beta.nexus.xyz/ dibagian profile
+
 ![Screenshot 2024-12-11 203449](https://github.com/user-attachments/assets/c20bb508-7ec1-42ef-9db9-5fb8c6683e77)
 
