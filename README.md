@@ -37,3 +37,21 @@ Script ini hanya bisa kalian jalankan di OS ubuntu lokal maupun vps
 ```bash
 sudo systemctl start nexus.service
 ```
+
+## Link Prover ID dengan Email
+Kalian harus connect email dengan prover id kalian yang ada di web supaya data cycle kalian tersimpan caranya :
+- Masuk ke https://beta.nexus.xyz/
+- Kemudian klik ikon orang di pojok kiri bawah
+- Masukan Email kemudian verif
+- Jika sudah cek apakah sudah centang hijau di samping email
+- Done
+
+## Cara run 1 prover-d di berbagai vps
+Jika kalian ingin gunakan 1 prover-id di web dengan yang di vps supaya sama dengan yang di website caranya :
+- Masuk ke https://beta.nexus.xyz/
+- Kemudian inspect element 'ctrl'+'shift'+'i' kalau di chrome
+- Masuk ke tab Application
+- Selanjutnya masuk ke 'local storage' cari https://beta.nexus.xyz/
+- kemudian kopi prover-id kalian simpan didalam note untuk jaga-jaga
+- Selanjutnya ubah prover-id yang ada di vps
+- 
