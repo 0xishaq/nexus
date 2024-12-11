@@ -60,8 +60,10 @@ Jika kalian ingin gunakan 1 prover-id di web dengan yang di vps supaya sama deng
 cd .nexus
 nano prover-id
 ```
-jika sudah save `ctrl`+`x`+`y`+`enter` kemudian Restart nexus.service
+- jika sudah save `ctrl`+`x`+`y`+`enter` kemudian Restart nexus.service
 ```bash
 sudo systemctl restart nexus.service
 ```
+- Check point kalian di website https://beta.nexus.xyz/ dibagian profile
+![Screenshot 2024-12-11 203449](https://github.com/user-attachments/assets/c20bb508-7ec1-42ef-9db9-5fb8c6683e77)
 
