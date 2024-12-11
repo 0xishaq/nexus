@@ -47,7 +47,7 @@ Kalian harus connect email dengan prover id kalian yang ada di web supaya data c
 - Jika sudah cek apakah sudah centang hijau di samping email
 - Done
 
-## Cara run 1 prover-d di berbagai vps
+## Cara run 1 prover-id di berbagai vps
 Jika kalian ingin gunakan 1 prover-id di web dengan yang di vps supaya sama dengan yang di website caranya :
 - Masuk ke https://beta.nexus.xyz/
 - Kemudian inspect element `ctrl`+`shift`+`i` kalau di chrome
